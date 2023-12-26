@@ -47,6 +47,8 @@ addButton.addEventListener('click',() => {
       div.style.backgroundColor = "lightgreen";
     }
   }
+  toDoDate.value = '';
+  toDoName.value = '';
 })
 
 function arrays (array) {
